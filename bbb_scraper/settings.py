@@ -14,10 +14,10 @@ NEWSPIDER_MODULE = "bbb_scraper.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "bbb_scraper (+http://www.yourdomain.com)"
+USER_AGENT = "PostmanRuntime/7.39.0"  # TODO change this
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
